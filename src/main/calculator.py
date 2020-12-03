@@ -1,13 +1,17 @@
 # Created by Leon Hunter at 9:54 AM 10/23/2020
 class Calculator(object):
     def add(self, a, b):
-        return None # TODO - Implement solution
+        sum = a + b
+        return sum
 
     def subtract(self, a, b):
-        return None # TODO - Implement solution
+        difference = a - b
+        return difference
 
     def multiply(self, a, b):
-        return None # TODO - Implement solution
+        product = a * b
+        return product
 
     def divide(self, a, b):
-        return None # TODO - Implement solution
+        quotient = a / b
+        return round(quotient, 3)
